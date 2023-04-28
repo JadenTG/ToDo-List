@@ -1,0 +1,73 @@
+#theFather{
+    background-color: #5D4954;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+#banana{
+    background-color: #F9E0D9;
+    height: 150px;
+    width: 1000px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 150px;
+    font-family: 'Playfair Display', serif;
+}
+
+#ListBox{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #E6DBD0;
+    border-radius: 15px;
+    height: 100%;
+    width: 900px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+}
+
+#Button{
+    font-size: 3vw;
+    background-color: #5D4954;
+    color: white;
+    margin-top: 1vh;
+    border-radius: 15px;
+}
+
+p{
+    display: inline;
+    word-break: break-all;
+}
+
+
+.item {
+    display: flex;
+    flex-direction:column;
+    background-color: #7D6167;
+    align-items: center;
+    text-align: justify;
+    font-size: 20px;
+    border: solid 2px black;
+    width: 40ch;
+    line-height: 2vw;
+    margin-block: 0.5rem;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+div div div button:nth-child(1){
+    background-color: #E6DBD0;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+div div div button:nth-child(2){
+    background-color: #E6DBD0;
+    border-radius: 5px;
+}
